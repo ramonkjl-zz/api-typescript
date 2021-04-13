@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/bcrypt": "^3.0.1",
+    "@types/bcrypt": "*",
     "@types/cors": "*",
     "@types/express": "*",
-    "@types/jsonwebtoken": "^8.5.1",
+    "@types/jsonwebtoken": "*",
     "@types/mongoose": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
@@ -32,10 +32,10 @@
     "typescript": "*"
   },
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.12.3"
+    "bcrypt": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*"
   }
 }

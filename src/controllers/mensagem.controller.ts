@@ -7,8 +7,8 @@ class MensagemController {
 
         const mensagem = await mensagemModel.create({
             texto: req.body.texto,
-            remetente: '',
-            destinatario: req.params.id
+            remetente: req.usuario._id,
+            destinatario: req.usuarioChat._id
         })
 
         return res.json(mensagem)
